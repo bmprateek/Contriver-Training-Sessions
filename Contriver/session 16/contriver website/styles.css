@@ -1,0 +1,188 @@
+.background-1{
+background-image: url('./images/Contriver-website-cover-min-scaled.jpg');
+width: 100%;
+height: 100%;
+background-size: cover;
+background-position: center;
+text-align: center;
+filter: brightness(90%)
+}
+
+body{
+    margin: 0px;
+    position: relative;
+}
+
+.background-2{
+    background-repeat: no-repeat;
+    background-color: white;
+    top: 0;
+    left: 0;
+    height: 80%;
+    width: 100%;
+    position: static;
+}
+
+.background-3{
+        background-repeat: no-repeat;
+        background-color:rgb(8, 54, 81);
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        position: static;
+}
+.navbar{
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    z-index:999
+}
+
+.navbar.scrolled{
+    background-color: black;
+}
+
+.navbar a {
+    margin-right: 30px;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .nav-right{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .search-icon{
+    margin-top: 15px;
+    margin-right: 70px;
+  }
+  .nav-img{
+    height: 40px;
+  }
+
+  .nav-left{
+    float: left;
+    margin-top: 40px;
+    margin-left: 60px;
+  }
+
+.block-1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+.block1-title1{
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+    filter: brightness(100%);
+}
+.block1-title2{
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+    filter: brightness(100%);
+}
+.btn-wrapper1{
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+}
+.yellow-btn{
+background-color: yellow;
+padding: 15px 30px;
+box-shadow: outset;
+border-radius: 30px;
+font-size: 14px;
+font-weight: 530;
+border: 1px solid black;
+
+}
+.yellow-btn:hover{
+    background-color: black;
+    color: yellow;
+}
+.double-arrow-wrapper{
+    width: 100%;
+    text-align: center;
+}
+.arrow-btn{
+color: white;
+font-size: 60px;
+margin-top: 10px;
+
+}
+
+
+.fbtn-wrapper{
+    position: fixed;
+    bottom: 0;
+    right:0;
+    z-index:999
+}
+.cwu{
+margin-bottom: 40px;
+background-color: rgb(218, 216, 216);
+padding: 15px 20px;
+margin-top: 70px;
+border-radius: 30px;
+font-size: 16px;
+font-weight: 530;
+border: 0px;
+
+}
+
+.mes{
+    margin-bottom: 40px;
+    margin-right: 20px;
+    font-size: 30px;
+    padding: 13px;
+    border-radius: 50px;
+    border: 0px;
+    background-color: black;
+
+}
+.block-2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+.block2-title1{
+    font-size: 23px;
+    font-weight: 600;
+}
+.block2-title2{
+    font-size: 70px;
+    font-weight: 500;
+}
+.block2-title3{
+    font-size: 38px;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+}
+.block2-title4{
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: 100;
+    color: grey;
+}
+
+.btn-wrapper2{
+    margin-top: 20px;
+}

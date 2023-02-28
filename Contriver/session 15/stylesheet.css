@@ -1,0 +1,88 @@
+#para1{
+    text-align: center;
+    color: red;
+}
+p.center {
+    text-align: center;
+    color: red;
+  }
+
+.hd{
+    border: 2px solid Tomato;;
+}
+.ghd{
+    background-color: green;
+}
+.lbdiv{
+    background-color: lightblue;
+}
+.pyel{
+    background-color: yellow;
+    opacity: 0.7;
+}
+.bimage{
+    background-image: url("tree.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+}
+
+.dmargin{
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 80px;
+    margin-right: 150px;
+    background-color: lightblue;
+
+}
+.flex-container{
+    display: flex;
+    background-color: rgb(13, 84, 155);
+    flex-direction: row;
+}
+.flex-container > div{
+    background-color: #b0a6a6;
+    margin: auto;
+    padding: 20px;
+    font-size: 30px;
+}
+.flex-container-col{
+    display: flex;
+    flex-direction: column;
+    background-color: DodgerBlue;
+}
+.flex-container-col > div{
+    background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: dodgerblue;
+}
+.flex-container-wrap > div{
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.bxmdl{
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+  }
+.bxmdltxt{
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}

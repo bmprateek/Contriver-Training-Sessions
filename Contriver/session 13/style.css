@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.sign-up-form{
+    width: 290px;
+    box-shadow: 0 , 0 , 3px , rgba(0,0,0,0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: justify;
+    border: solid black 2px;
+}
+
+input[type=text]{
+    margin-left: 38px;
+ }
+
+ input[type=password]{
+    margin-left: 4px;
+ }
+
+ input[type=tel]{
+    margin-left: 15px;
+ }
+
+ input[type=date]{
+    margin-left: 28px;
+    width: 23ch;
+ }
+ input[type=email]{
+    margin-left: 73px;
+ }
+
+.gender{
+    margin-left: 110px;
+    
+}
+
+.btn{
+    width: 100%;
+}
+input[type=reset]{
+    background-color: lightcoral;
+    width: 10ch;
+    height: 3.5ch;
+ }
+
+ input[type=submit]{
+    background-color: lightblue;
+    width: 10ch;
+    height: 3.5ch;
+    margin-left: 135px;
+ }
