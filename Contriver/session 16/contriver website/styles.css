@@ -23,15 +23,6 @@ body{
     position: static;
 }
 
-.background-3{
-        background-repeat: no-repeat;
-        background-color:rgb(8, 54, 81);
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        position: static;
-}
 .navbar{
     background-color: transparent;
     position: fixed;
@@ -185,4 +176,60 @@ border: 0px;
 
 .btn-wrapper2{
     margin-top: 20px;
+    margin-bottom: 40px;
+}
+.background-3{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: rgb(4, 58, 82);
+}
+.block-3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+.block3-title1{
+    margin-top: 10px;
+    text-align: left;
+    color: #C5C5C5;
+    margin-left: 200px;
+    font-size: 18px;
+}
+.block3-title2{
+    text-align: left;
+    color: #C5C5C5;
+    margin-left: 200px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.row-div{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-self: center; 
+    padding: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 10px;
+}
+.card-img{
+    height: 505.19;
+    width:359.99;
+    text-align: center;
+}
+.card-desc{
+    color: #C5C5C5;
+    margin-top: 20px;
+}
+.block3-title3{
+    color: #C5C5C5;
+    font-size: 30px;
+    font-weight: 800;
 }
